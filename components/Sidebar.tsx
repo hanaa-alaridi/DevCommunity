@@ -8,7 +8,7 @@ import Image from 'next/image'
 export default function Sidebar() {
     const pathname = usePathname()
     return (
-        <aside className="w-64 h-full bg-black border-r border-surface-border min-h-screen p-4">
+        <aside className="hidden md:block w-64 h-full bg-black border-r border-surface-border min-h-screen p-4">
             <div className="flex items-center gap-2 px-2 pb-6 pt-2 border-b border-surface-border mb-4"> 
                 <Image src="/favicon.ico" alt="DevCommunity Logo" width={32} height={32} className="rounded-lg object-contain"/>
                 <Link href="/dashboard">DevCommunity</Link> 
