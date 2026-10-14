@@ -1,6 +1,7 @@
 # DevCommunity 🚀
 
 > A full-stack developer community platform for learning, sharing, and discovering technical content. Built with Next.js 16 App Router, MongoDB Atlas, Auth.js, and Tailwind CSS.
+> **Live Demo:** (https://dev-community-hanaa.vercel.app)
 
 ---
 
@@ -84,4 +85,4 @@ DevCommunity intentionally leverages multiple Next.js rendering techniques:
 
 - **Database**: Hosted on **MongoDB Atlas** with IP Network Access set to allow connection from Vercel deployment environments (`0.0.0.0/0`).
 - **Hosting**: Deployed on **Vercel** connected directly to the GitHub `main` branch.
-- **OAuth Callback URLs**: GitHub and Google Cloud Developer consoles configured with the production domain callback route (`https://<your-app>.vercel.app/api/auth/callback/<provider>`).
+- **OAuth Callback URLs**: GitHub and Google Cloud Developer consoles configured with the production domain callback routes: - \`https://dev-community-hanaa.vercel.app/api/auth/callback/github\` - \`https://dev-community-hanaa.vercel.app/api/auth/callback/google\`
