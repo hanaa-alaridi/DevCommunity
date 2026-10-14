@@ -3,6 +3,8 @@ import Community from "@/models/Community";
 import Post from "@/models/Post";
 import CreatePostForm from "@/components/CreatePostForm";
 
+export const dynamic = "force-dynamic";
+
 export default async function CreatePage() {
   await connectToDatabase();
   const rawCommunities = await Community.find({}).select("name _id topics").lean();
